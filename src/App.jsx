@@ -1,5 +1,8 @@
 import './App.css';
-import Category from './Components/Category';
+import Category from './Components/Categories/Category';
+import CategoryFour from './Components/Categories/CategoryFour';
+import CategoryThree from './Components/Categories/CategoryThree';
+import CategoryTwo from './Components/Categories/CategoryTwo';
 import CategorySection from './Components/CategorySection';
 import ContainerCategories from './Components/ContainerCategories';
 import Section from './Components/FirstSection/FirstSection';
@@ -21,7 +24,10 @@ function App() {
           <MinorTitle>CATEGORY</MinorTitle>
           <MainTitle>We Offer Best Services</MainTitle>
           <ContainerCategories>
-            <Category></Category>
+            <Category />
+            <CategoryTwo />
+            <CategoryThree />
+            <CategoryFour />
           </ContainerCategories>
         </CategorySection>
       </Section>
