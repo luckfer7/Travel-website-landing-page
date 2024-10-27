@@ -1,8 +1,8 @@
 import styled from "styled-components";
 
-const FirstSection = styled.section`
+const Section = styled.section`
     height: 100vh;
     background-color: #ffffff;
 `
 
-export default FirstSection;
+export default Section;

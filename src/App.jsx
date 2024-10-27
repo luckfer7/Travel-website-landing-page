@@ -1,5 +1,5 @@
 import './App.css';
-import FirstSection from './Components/FirstSection/FirstSection';
+import Section from './Components/FirstSection/FirstSection';
 import Header from './Components/Header/Header'
 import SecondSection from './Components/SecondSection';
 
@@ -7,12 +7,13 @@ function App() {
 
   return (
     <>
-      <FirstSection>
+      <Section>
         <Header />
-        <SecondSection>
-          
-        </SecondSection>
-      </FirstSection>
+        <SecondSection />
+      </Section>
+      <Section>
+        
+      </Section>
     </>
   )
 }
