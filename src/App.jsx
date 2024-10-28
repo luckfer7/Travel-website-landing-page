@@ -10,6 +10,8 @@ import Header from './Components/Header/Header'
 import MainTitle from './Components/MainTitle';
 import MinorTitle from './Components/MinorTitle';
 import SecondSection from './Components/SecondSection';
+import StyledSphericalContainer from './Components/SphericalContainer';
+
 
 function App() {
 
@@ -23,7 +25,7 @@ function App() {
         <CategorySection>
           <MinorTitle>CATEGORY</MinorTitle>
           <MainTitle>We Offer Best Services</MainTitle>
-          <ContainerCategories>
+          <ContainerCategories showRectangle={true} >
             <Category />
             <CategoryTwo />
             <CategoryThree />
@@ -31,6 +33,16 @@ function App() {
           </ContainerCategories>
         </CategorySection>
       </Section>
+      <Section>
+        <CategorySection>
+          <MinorTitle>Top Selling</MinorTitle>
+          <MainTitle>Top Destinations</MainTitle>
+          <ContainerCategories >
+            <StyledSphericalContainer />
+          </ContainerCategories>
+        </CategorySection>
+      </Section>
+
     </>
   )
 }

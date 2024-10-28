@@ -9,7 +9,7 @@ const ContainerCategories = styled.div`
     display: flex;
     justify-content: center;
     gap: 60px;
-    background-image: url('../../../../public/Rectangle 157.png');
+    background-image: ${({ showRectangle }) => showRectangle ? "url('../../../../public/Rectangle 157.png')" : "none"};
     background-repeat: no-repeat;
     background-position: right 830px bottom 175px;
 `
