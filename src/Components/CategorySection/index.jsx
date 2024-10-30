@@ -7,7 +7,7 @@ const CategorySection = styled.section`
     margin-top: 30px;
     height: 100vh;
     display: flex;
-    flex-direction: column;
+    flex-direction: ${ ({changeDirection}) => changeDirection ? "row" : "column"} ;
     align-items: center;
 `;
 
