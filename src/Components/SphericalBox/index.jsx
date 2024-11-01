@@ -5,6 +5,15 @@ const StyledSphericalBox = styled.div`
    width: ${(props) => props.width || ''};
    border-radius: ${(props) => props.radius || ''};
    box-shadow: ${(props) => props.shadow || ''};
+   margin: ${(props) => props.margin || ''} ;
+   background-color: ${(props) => props.background || ''};
+   padding: ${(props) => props.padding || ''}; 
+   border: ${(props) => props.border || ''};
+   position: ${(props) => props.position || ''};
+   z-index: ${(props) => props.zindex || ''};
+   display: ${(props) => props.display || ''};
+   justify-content: ${(props) => props.justifycontent || ''};
+   align-items: ${(props) => props.align || ''};
 `
 
 export default StyledSphericalBox;

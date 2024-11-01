@@ -5,6 +5,8 @@ import CategoryFour from './Components/Categories/CategoryFour';
 import CategoryThree from './Components/Categories/CategoryThree';
 import CategoryTwo from './Components/Categories/CategoryTwo';
 import CategorySection from './Components/CategorySection';
+import CommentsContainer from './Components/CommentsContainer';
+import ContainerCompanies from './Components/Companies';
 import ContainerCategories from './Components/ContainerCategories';
 import Section from './Components/FirstSection/FirstSection';
 import Header from './Components/Header/Header'
@@ -50,6 +52,14 @@ function App() {
           <ImageContainer />
         </CategorySection>
       </Section>
+      <Section>
+        <CategorySection changeDirection={true}>
+          <CommentsContainer />
+        </CategorySection>
+      </Section>
+      
+      <ContainerCompanies></ContainerCompanies>
+      
     </>
   )
 }

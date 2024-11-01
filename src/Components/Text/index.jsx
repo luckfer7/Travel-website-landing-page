@@ -5,6 +5,8 @@ const Text = styled.p`
     border-right: ${(props) => props.border || ''};
     padding-right: ${(props) => props.padding || ''};
     font-size: ${(props) => props.font || ''};
+    line-height: ${(props) => props.lineHeight || ''};
+    margin: ${(props) => props.margin || ''};
 `;
 
 export default Text;

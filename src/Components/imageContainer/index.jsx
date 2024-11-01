@@ -53,10 +53,12 @@ const ImageContainer = () => {
             <StyledImageContainer>
                <StyledSphericalBox
                 className="box"
-                width="60%"
-                height="70%"
+                width="50%"
+                height="55%"
                 radius="26px"
-                shadow="rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;"
+                shadow="rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(60, 125, 182, 0.22) 20px 0px 20px 0px;"
+                margin="0 auto"
+                
                > 
                  <img className="greece" src={greece} alt="" />
                  <h5>Trip to Greece</h5>
