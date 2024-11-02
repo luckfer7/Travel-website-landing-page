@@ -9,12 +9,14 @@ import CommentsContainer from './Components/CommentsContainer';
 import ContainerCompanies from './Components/Companies';
 import ContainerCategories from './Components/ContainerCategories';
 import Section from './Components/FirstSection/FirstSection';
+import Footer from './Components/Footer';
 import Header from './Components/Header/Header'
 import ImageContainer from './Components/imageContainer';
 import MainTitle from './Components/MainTitle';
 import MinorTitle from './Components/MinorTitle';
 import SecondSection from './Components/SecondSection';
 import StyledSphericalContainer from './Components/SphericalContainer';
+import Subscribe from './Components/Subscribe';
 
 
 function App() {
@@ -59,6 +61,12 @@ function App() {
       </Section>
       
       <ContainerCompanies></ContainerCompanies>
+      <Section>
+        <Subscribe />
+      </Section>
+      
+      <Footer></Footer>  
+    
       
     </>
   )

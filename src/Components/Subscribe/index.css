@@ -1,0 +1,30 @@
+.title {
+    line-height: 54px;
+    font-size: 40px;
+    color: #5E6282;
+    width: 85%;
+    
+}
+
+form {
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+}
+
+input {
+    padding: 20px;
+    border-radius: 10px ;
+    border: none;
+    width: 70%;
+}
+
+.button {
+    background: linear-gradient(to bottom, #FF946D, #FF7D68);
+   border: none;
+   border-radius: 10px;
+   padding: 20px 30px;
+   color: #ffffff;
+   font-size: 17px;
+   cursor: pointer;
+}

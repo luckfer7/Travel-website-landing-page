@@ -26,22 +26,22 @@ const Header = () => {
                 
                     <ul >
                         <li >
-                            <a href="">Destinations</a>
+                            <a className="anchor" href="">Destinations</a>
                         </li>
                         <li>
-                            <a href="">Hotels</a>
+                            <a className="anchor" href="">Hotels</a>
                         </li>
                         <li>
-                            <a href="">Flights</a>
+                            <a className="anchor" href="">Flights</a>
                         </li>
                         <li>
-                            <a href="">Bookings</a>
+                            <a className="anchor" href="">Bookings</a>
                         </li>
                         <li>
-                            <a href="">Login</a>
+                            <a className="anchor" href="">Login</a>
                         </li>
                         <li className="signup">
-                            <a href="">Sign Up</a>
+                            <a className="anchor" href="">Sign Up</a>
                         </li>
                     </ul>
                 </StyledNav>

@@ -14,6 +14,9 @@ const StyledSphericalBox = styled.div`
    display: ${(props) => props.display || ''};
    justify-content: ${(props) => props.justifycontent || ''};
    align-items: ${(props) => props.align || ''};
+   flex-direction: ${(props) => props.direction || ''};
+   gap: ${(props) => props.gap || ''};
+   text-align: ${(props) => props.textalign || ''};
 `
 
 export default StyledSphericalBox;

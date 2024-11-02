@@ -9,7 +9,7 @@ li {
     
 }
 
-a {
+.anchor {
     font-size: 20px;
     padding: 0.3em 0.5em;
     color: #212832;
@@ -22,7 +22,7 @@ a {
     padding: 0.3em 0.5em;
 }
 
-a:hover {
+.anchor:hover {
     color: #212832;
     background-color: #ffffff;
     border: 1px solid #212832;
