@@ -17,6 +17,10 @@ const StyledCategoryFour = styled.div`
         height: 66px;
         margin-top: 59px;
     }
+
+    @media screen and (max-width: 390px) {
+        width: 100%;
+    }
 `
 
 const CategoryFour = () => {

@@ -12,6 +12,12 @@ const ContainerCategories = styled.div`
     background-image: ${({ showRectangle }) => showRectangle ? "url('../../../../public/Rectangle 157.png')" : "none"};
     background-repeat: no-repeat;
     background-position: right 830px bottom 175px;
+
+    @media screen and (max-width: 390px) {
+        flex-direction: column;
+
+        height: auto;
+    }
 `
 
 export default ContainerCategories;

@@ -64,21 +64,24 @@ const StyledSecondSection = styled.section`
         }
 
         b {
-            font-size: 25px;
+            font-size: 16px;
             margin: 0 0 10px 0;
         }
 
         h1 {
             text-align: center;
             margin: 0 0 10px 0;
+            font-size: 32px;
+            line-height: 40px;
 
         }
 
         p {
-            font-size: 32px;
+            font-size: 20px;
             width: 90%;
             margin: 0 0 10px 0;
-            line-height: 43px;
+            line-height: 30px;
+            text-align: center;
         }
 
         img {

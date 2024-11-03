@@ -12,10 +12,10 @@ const StyledHeader = styled.header`
     padding: 2em 0;
 
     @media screen and (max-width: 390px) {
-        width: 100%;
+        width: 95%;
 
         img {
-            height: 60px;
+            height: 40%;
         }
     }
 `

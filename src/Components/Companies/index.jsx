@@ -4,12 +4,13 @@ import jetstar from '../../../public/jetstar.png'
 import expedia from '../../../public/expedia.png'
 import qantas from '../../../public/qantas.png'
 import alitalia from '../../../public/alitalia.png'
+import './index.css'
 
 const ContainerCompanies = () => {
 
     return(
       <>
-        <StyledSphericalBox
+        <StyledSphericalBox className="spherical--box"
             width="80%"
             // border="2px solid blue"
             margin="15rem auto"
@@ -17,6 +18,7 @@ const ContainerCompanies = () => {
             justifycontent="space-between"
             align="center"
             padding="2rem"
+            
            
         >
             <img src={axon} alt="" height={39} width={130} />

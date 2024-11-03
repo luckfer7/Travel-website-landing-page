@@ -20,6 +20,16 @@ const StyledCategoryTwo = styled.div`
         margin-top: 19px;
     }
 
+    @media screen and (max-width: 390px) {
+        width: 100%;
+        padding-bottom: 20px;
+
+        img {
+            margin-top: 0;
+        }
+          
+    }
+
 `
 
 const CategoryTwo = () => {

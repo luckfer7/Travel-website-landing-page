@@ -5,10 +5,15 @@ const CategorySection = styled.section`
     margin: 0 auto;
     /* border: 3px solid yellow; */
     margin-top: 30px;
-    height: 100vh;
     display: flex;
     flex-direction: ${ ({changeDirection}) => changeDirection ? "row" : "column"} ;
     align-items: center;
+
+
+    @media screen and (max-width: 390px) {
+        flex-direction: column;
+    }
+
 `;
 
 export default CategorySection;

@@ -8,7 +8,6 @@ import CategorySection from './Components/CategorySection';
 import CommentsContainer from './Components/CommentsContainer';
 import ContainerCompanies from './Components/Companies';
 import ContainerCategories from './Components/ContainerCategories';
-import Section from './Components/FirstSection/FirstSection';
 import Footer from './Components/Footer';
 import Header from './Components/Header/Header'
 import ImageContainer from './Components/imageContainer';
@@ -23,11 +22,10 @@ function App() {
 
   return (
     <>
-      <Section>
+      
         <Header />
         <SecondSection />
-      </Section>
-      <Section>
+      
         <CategorySection>
           <MinorTitle>CATEGORY</MinorTitle>
           <MainTitle>We Offer Best Services</MainTitle>
@@ -38,8 +36,7 @@ function App() {
             <CategoryFour />
           </ContainerCategories>
         </CategorySection>
-      </Section>
-      <Section>
+      
         <CategorySection>
           <MinorTitle>Top Selling</MinorTitle>
           <MainTitle>Top Destinations</MainTitle>
@@ -47,27 +44,23 @@ function App() {
             <StyledSphericalContainer />
           </ContainerCategories>
         </CategorySection>
-      </Section>
-      <Section>
+      
         <CategorySection changeDirection={true}>
           <BookingTripContainer />
           <ImageContainer />
         </CategorySection>
-      </Section>
-      <Section>
+  
         <CategorySection changeDirection={true}>
           <CommentsContainer />
         </CategorySection>
-      </Section>
       
-      <ContainerCompanies></ContainerCompanies>
-      <Section>
+      
+      <ContainerCompanies />
+      
         <Subscribe />
-      </Section>
-      
-      <Footer></Footer>  
     
       
+      <Footer/>      
     </>
   )
 }

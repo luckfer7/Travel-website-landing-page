@@ -19,6 +19,7 @@ const StyledCommentsContainer = styled.div`
         right: 5%;
         top: 6%;
     }
+
     .first {
         z-index: 2;        
     }
@@ -28,6 +29,34 @@ const StyledCommentsContainer = styled.div`
         z-index: 1;
         left: 7%;
         bottom: 15%;
+    }
+
+    @media screen and (max-width: 390px) {
+        width: 100%;
+        padding: 0;
+        
+        .first {
+            width: 100%;
+            z-index: 2;   
+            position: relative;
+        }
+
+        .second {
+            width: 100%;
+            z-index: 1;
+            left: 7%;
+            bottom: 30%;
+            position: relative;
+        }
+
+        img {
+            height: 65px;
+            width: 65px;
+            z-index: 3;
+            right: 5%;
+            top: 6%;
+            position: relative; 
+        }
     }
    
 `;

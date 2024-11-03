@@ -39,13 +39,29 @@ const StyledFooter = styled.footer`
     img:nth-child(5) {
         margin-right: 7px;
     }
+
+    @media screen and (max-width: 390px) {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+
+        .footer__title {
+            text-align: center;
+        }
+
+        .paragraphs {
+            text-align: center;
+
+        }
+    }
 `;
 
 const Footer = () => {
     return(
         <>
             <StyledFooter>
-                <StyledSphericalBox
+                <StyledSphericalBox 
                     display="flex"
                     direction="column"
                 >

@@ -17,6 +17,9 @@ const StyledSphericalBox = styled.div`
    flex-direction: ${(props) => props.direction || ''};
    gap: ${(props) => props.gap || ''};
    text-align: ${(props) => props.textalign || ''};
-`
+
+  
+   
+   `
 
 export default StyledSphericalBox;

@@ -18,6 +18,10 @@ const StyledCategory = styled.div`
         height: 78px;
         margin-top: 49px;
     }
+
+    @media screen and (max-width: 390px) {
+        width: 100%;
+    }
 `
 
 const Category = () => {

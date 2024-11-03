@@ -30,6 +30,14 @@ const SphericalContainer = styled.div`
         gap: 0.5rem;
         margin-top: 0.8rem;
     }
+
+    @media screen and (max-width: 390px) {
+        width: 100%;
+        
+        .navig {
+           margin-bottom : 10px;
+        }
+    }
 `;
 
 const StyledSphericalContainer = () => {

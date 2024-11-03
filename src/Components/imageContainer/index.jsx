@@ -45,6 +45,25 @@ const StyledImageContainer = styled.div`
         width: 16px;
         height: 16px;
     }
+
+
+    @media screen and (max-width: 390px) {
+        width: 100%;
+
+        .box {
+            display: flex;
+            flex-direction: column;
+            padding: 0.5rem;
+            width: 100%;
+            padding-bottom: 10px;
+            text-align: center;
+        }
+
+        div {
+            justify-content: center;
+            gap: 15px;
+        }
+    }
 `;
 
 const ImageContainer = () => {

@@ -49,6 +49,31 @@ const StyledBookingTripContainer = styled.div`
         width: 47px;
     }
 
+    @media screen and (max-width: 390px) {
+
+        width: 100%;
+        align-items: center;
+
+        .minortle {
+            margin-left: 0;
+        }
+
+        .title {
+            margin-left: 0;
+            padding: 0;
+            line-height: 42px;
+        }
+
+        .value {
+            display: flex;
+            gap: 19px;
+            margin: 0 0 20px 0;
+            width: 100%;
+        }
+
+        
+    }
+
     
 `;
 

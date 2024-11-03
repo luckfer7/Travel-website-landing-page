@@ -17,13 +17,19 @@ const StyledCategoryThree = styled.div`
         height: 75px;
         margin-top: 49px;
     }
+
+    @media screen and (max-width: 390px) {
+        width: 100%;
+
+        
+    }
 `
 
 const CategoryThree = () => {
     return (
         <>
             <StyledCategoryThree>
-            <img src={microphone} alt="" />
+                <img src={microphone} alt="" />
                 <ContainerTitle>Local Events</ContainerTitle>
                 <Paragraph>Barton vanity itself do in it. Preferd to men it engrossed listening.</Paragraph>
             </StyledCategoryThree>
