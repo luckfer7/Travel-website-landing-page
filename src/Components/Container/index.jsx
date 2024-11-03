@@ -9,6 +9,11 @@ const StyledDiv = styled.div`
     align-items: center;
     gap: 20px;
     margin-top: 10px;
+
+    @media screen and (max-width: 390px) {
+        justify-content: center;
+        
+    }
 `
 
 const Container = ({ children }) => {

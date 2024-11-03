@@ -9,7 +9,7 @@ import MainTitle from '../MainTitle';
 const StyledBookingTripContainer = styled.div`
     height: 80%;
     width: 50%;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     margin: 0 auto;
     display: flex;
     flex-direction: column;

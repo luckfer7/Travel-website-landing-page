@@ -6,7 +6,7 @@ import Text from "../Text";
 import men from '../../../public/men.png'
 
 const StyledCommentsContainer = styled.div`
-    border: 2px solid green;
+    /* border: 2px solid green; */
     width: 50%;
     height: 70%;
     padding: 6rem 4rem 0 3rem;

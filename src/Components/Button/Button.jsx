@@ -9,6 +9,11 @@ const StyledButton = styled.button`
     font-size: 14px;
     ${({PersonalizedButton}) => PersonalizedButton && PersonalizedButton}
     ${({SecondPersonalizedButton}) => SecondPersonalizedButton && SecondPersonalizedButton}
+
+    @media screen and (max-width: 390px) {
+        font-size: 26px;
+        
+    }
 `;
 
 const Button = ({children, PersonalizedButton, SecondPersonalizedButton}) => {

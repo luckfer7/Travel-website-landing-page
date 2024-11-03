@@ -2,7 +2,7 @@ import styled from "styled-components";
 //import retangulo from '../../../../public/Rectangle 157.png'
 
 const ContainerCategories = styled.div`
-    border: 2px solid brown;
+    /* border: 2px solid brown; */
     width: 95%;
     margin-top: 30px;
     height: 70%;

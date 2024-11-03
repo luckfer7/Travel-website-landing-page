@@ -10,6 +10,14 @@ const StyledHeader = styled.header`
     width: 85%;
     margin: 0 auto;
     padding: 2em 0;
+
+    @media screen and (max-width: 390px) {
+        width: 100%;
+
+        img {
+            height: 60px;
+        }
+    }
 `
 
 const StyledNav = styled.nav`

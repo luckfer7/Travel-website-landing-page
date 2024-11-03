@@ -7,15 +7,17 @@ import playbutton from '../../../public/botao-play.png'
 const StyledSecondSection = styled.section`
     width: 85%;
     margin: 0 auto;
-    border: 3px solid;
+    /* border: 3px solid; */
     display: flex;
     align-items: center;
 
+    
+
     .container {
-        border: 2px solid;
+        /* border: 2px solid; */
         width: 50%;
-        padding: 10px 20px 0px 10px;
-        
+        padding: 10px 0px 0px 10px;
+
     }
 
 
@@ -46,6 +48,42 @@ const StyledSecondSection = styled.section`
 
     img {
         width: 50%;
+    
+    }
+
+    @media screen and (max-width: 390px) {
+        flex-direction: column-reverse;
+        width: 100%;
+
+        .container {
+            width: 100%;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        b {
+            font-size: 25px;
+            margin: 0 0 10px 0;
+        }
+
+        h1 {
+            text-align: center;
+            margin: 0 0 10px 0;
+
+        }
+
+        p {
+            font-size: 32px;
+            width: 90%;
+            margin: 0 0 10px 0;
+            line-height: 43px;
+        }
+
+        img {
+            display: none;
+        }
     }
 
     
@@ -63,7 +101,7 @@ const SecondSection = () => {
                     <Container>
                         <Button 
                             PersonalizedButton=
-                            "background-color: #F1A501;color: #ffffff"
+                            "background-color: #F1A501;color: #ffffff; @media screen and (max-width: 390px) {font-size: 32px; padding: 26px 36px; color: #ffffff}"
                         >
                             Find out more
                         </Button>

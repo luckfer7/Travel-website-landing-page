@@ -11,7 +11,7 @@ import building from '../../../public/building.png'
 const StyledImageContainer = styled.div`
     height: 80%;
     width: 50%;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     margin: 0 auto;
     align-content: center;
 

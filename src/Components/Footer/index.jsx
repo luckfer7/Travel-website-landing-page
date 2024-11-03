@@ -10,7 +10,7 @@ import apple from '../../../public/apple.png'
 
 
 const StyledFooter = styled.footer`
-    border: 3px solid black;
+    /* border: 3px solid black; */
     display: flex;
     justify-content: space-around;
     padding: 80px 0;

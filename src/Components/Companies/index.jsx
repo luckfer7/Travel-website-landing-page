@@ -11,7 +11,7 @@ const ContainerCompanies = () => {
       <>
         <StyledSphericalBox
             width="80%"
-            border="2px solid blue"
+            // border="2px solid blue"
             margin="15rem auto"
             display="flex"
             justifycontent="space-between"

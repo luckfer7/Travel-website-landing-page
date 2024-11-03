@@ -33,3 +33,9 @@ li {
 .signup:hover{
     border: none;
 }
+
+@media screen and (max-width: 390px) {
+    ul {
+        
+    }       
+}

@@ -6,7 +6,7 @@ import Paragraph from "../../Paragraph";
 const StyledCategoryFour = styled.div`
     width: 20%;
     height: 60%;
-    border: 2px solid green;
+    /* border: 2px solid green; */
     display: flex;
     flex-direction: column;
     align-items: center;
