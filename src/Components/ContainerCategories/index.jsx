@@ -11,7 +11,7 @@ const ContainerCategories = styled.div`
     gap: 60px;
     background-image: ${({ showRectangle }) => showRectangle ? "url('../../../../public/Rectangle 157.png')" : "none"};
     background-repeat: no-repeat;
-    background-position: right 830px bottom 175px;
+    background-position: right 830px bottom;
 
     @media screen and (max-width: 390px) {
         flex-direction: column;

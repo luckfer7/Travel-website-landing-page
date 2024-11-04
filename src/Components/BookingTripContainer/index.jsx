@@ -62,6 +62,7 @@ const StyledBookingTripContainer = styled.div`
             margin-left: 0;
             padding: 0;
             line-height: 42px;
+            margin-bottom: 25px;
         }
 
         .value {

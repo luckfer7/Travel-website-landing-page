@@ -8,6 +8,7 @@ const MainTitle = styled.h2`
 
     @media screen and (max-width: 390px) {
         font-size: 32px;
+        text-align: center;
     }
 `;
 

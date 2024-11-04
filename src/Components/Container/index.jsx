@@ -12,6 +12,7 @@ const StyledDiv = styled.div`
 
     @media screen and (max-width: 390px) {
         justify-content: center;
+        flex-direction: column;
         
     }
 `

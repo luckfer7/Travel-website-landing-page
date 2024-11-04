@@ -65,12 +65,13 @@ const StyledSecondSection = styled.section`
 
         b {
             font-size: 16px;
-            margin: 0 0 10px 0;
+            margin: 0 0 30px 0;
+            text-align: center;
         }
 
         h1 {
             text-align: center;
-            margin: 0 0 10px 0;
+            margin: 0 0 30px 0;
             font-size: 32px;
             line-height: 40px;
 
@@ -79,13 +80,17 @@ const StyledSecondSection = styled.section`
         p {
             font-size: 20px;
             width: 90%;
-            margin: 0 0 10px 0;
+            margin: 0 0 30px 0;
             line-height: 30px;
             text-align: center;
         }
 
         img {
             display: none;
+        }
+
+        .ff{
+            background-color: #181E4B;
         }
     }
 
@@ -104,7 +109,7 @@ const SecondSection = () => {
                     <Container>
                         <Button 
                             PersonalizedButton=
-                            "background-color: #F1A501;color: #ffffff; @media screen and (max-width: 390px) {font-size: 32px; padding: 26px 36px; color: #ffffff}"
+                            "background-color: #F1A501;color: #ffffff; @media screen and (max-width: 390px)"
                         >
                             Find out more
                         </Button>

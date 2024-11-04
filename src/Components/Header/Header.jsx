@@ -10,6 +10,7 @@ const StyledHeader = styled.header`
     width: 85%;
     margin: 0 auto;
     padding: 2em 0;
+    margin-bottom: 30px;
 
     @media screen and (max-width: 390px) {
         width: 95%;

@@ -8,6 +8,7 @@ const CategorySection = styled.section`
     display: flex;
     flex-direction: ${ ({changeDirection}) => changeDirection ? "row" : "column"} ;
     align-items: center;
+    margin-top: 200px;
 
 
     @media screen and (max-width: 390px) {

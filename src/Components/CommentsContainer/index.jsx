@@ -57,6 +57,11 @@ const StyledCommentsContainer = styled.div`
             top: 6%;
             position: relative; 
         }
+
+        .title {
+            text-align: center;
+            margin: 0 auto;
+        }
     }
    
 `;
@@ -65,7 +70,7 @@ const CommentsContainer = () =>{
     return(
         <>
             <StyledCommentsContainer>
-                <MinorTitle>Testimonials</MinorTitle>
+                <MinorTitle className="title">Testimonials</MinorTitle>
                 <MainTitle>What people say about Us.</MainTitle>
             </StyledCommentsContainer>
             <StyledCommentsContainer>

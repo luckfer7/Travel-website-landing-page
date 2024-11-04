@@ -11,7 +11,8 @@ const StyledButton = styled.button`
     ${({SecondPersonalizedButton}) => SecondPersonalizedButton && SecondPersonalizedButton}
 
     @media screen and (max-width: 390px) {
-        font-size: 26px;
+        font-size: 14px;
+        border: 1px solid;
         
     }
 `;
